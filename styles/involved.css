@@ -402,6 +402,10 @@ input[type=email] {
     color: #bb8c00;
 }
 
+#send:focus {
+    box-shadow: none;
+}
+
 @media only screen and (min-width: 650px) {
     #para1 {
         padding: 0em 13em;
