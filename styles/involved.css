@@ -85,7 +85,7 @@ h1,
 }
 
 .register_form {
-    margin: 0% 20%;
+    margin: 0% 17%;
 }
 
 .end {
@@ -368,25 +368,28 @@ nav ul li a:hover {
 }
 
 input[type=text] {
-    /* width: 100%; */
+    width: 100%;
     padding: 7px 10px;
     border: 1.5px solid #383838;
     border-radius: 0.3em;
     /* margin: 8px 0; */
+    font-size: 14px;
     box-sizing: border-box;
 }
 
 input[type=email] {
-    /* width: 100%; */
+    width: 100%;
     padding: 7px 10px;
     border: 1.5px solid #383838;
     border-radius: 0.3em;
     /* margin: 8px 0; */
+    font-size: 14px;
     box-sizing: border-box;
 }
 
 #send {
-    background-color: #17a2b8;
+    background-color: #bb8c00;
+    border-color: #bb8c00;
     color: #fff;
     margin: auto;
     display: block;
@@ -396,7 +399,7 @@ input[type=email] {
 
 #send:active {
     background-color: transparent;
-    color: #17a2b8;
+    color: #bb8c00;
 }
 
 @media only screen and (min-width: 650px) {
@@ -423,10 +426,17 @@ input[type=email] {
         border-bottom: #ffa600 0.125em solid;
     }
     .register_form {
+        position: relative;
         margin: 50px 200px;
         padding: 20px;
         border-radius: 9px;
         border: 2px solid #f0f0f0;
+    }
+    /* .register_form input:first-child {
+        margin-top: 35px;
+    } */
+    ..register_form input {
+        position: absolute;
     }
     .active-mobile {
         background-color: transparent;
@@ -456,10 +466,7 @@ input[type=email] {
         z-index: 5;
     }
     .form-container form {
-        /* margin: 50px 200px;
-        padding: 20px;
-        border-radius: 9px;
-        border: 2px solid #f0f0f0; */
+        position: relative;
     }
     .form-container input {
         margin: auto;
@@ -467,7 +474,8 @@ input[type=email] {
         border: 1px solid #707070;
         border-radius: 0.5em;
         padding: 10px;
-        width: 40%;
+        font-size: 14px;
+        width: 46%;
         display: block;
     }
     .subhead {
@@ -626,7 +634,7 @@ input[type=email] {
     }
     #send:hover {
         background-color: transparent;
-        color: #17a2b8;
+        color: #bb8c00;
     }
     @keyframes move {
         from {
