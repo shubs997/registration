@@ -85,7 +85,8 @@ h1,
 }
 
 .register_form {
-    margin: 0% 17%;
+    margin: 0% 7%;
+    margin-top: 7vh;
 }
 
 .end {
@@ -369,12 +370,13 @@ nav ul li a:hover {
 
 input[type=text] {
     width: 100%;
-    padding: 7px 10px;
+    padding: 10px 10px;
     border: 1.5px solid #383838;
     border-radius: 0.3em;
     /* margin: 8px 0; */
     font-size: 14px;
     box-sizing: border-box;
+    margin: 0.5vh auto;
 }
 
 input[type=email] {
@@ -385,6 +387,7 @@ input[type=email] {
     /* margin: 8px 0; */
     font-size: 14px;
     box-sizing: border-box;
+    margin: 0.5vh auto;
 }
 
 #send {
