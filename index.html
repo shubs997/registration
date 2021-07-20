@@ -115,6 +115,14 @@
     </script>
 
     <script>
+        if (window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.getElementById('menu').src = "images/ham-white.svg";
+            console.log("dark mode enabled");
+        }
+    </script>
+
+    <script>
         function postToGoogle() {
             var field1 = $("#fnameField").val();
             var field2 = $("#lnameField").val();
